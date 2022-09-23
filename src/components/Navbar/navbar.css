@@ -1,0 +1,36 @@
+.containerNavbar{
+    max-width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+.logo{
+    height: 30px;
+}
+.Item{
+    background-color: white;
+    height: 70px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-family: 'Public Sans', sans-serif;
+    color: rgb(139, 139, 139);
+    margin-left: 20px;
+}
+.Item:hover{
+    border-bottom: 2px solid hsl(136, 65%, 51%);
+    color:  hsl(233, 26%, 24%);
+}
+.BtnRequest{
+    background-color: hsl(136, 65%, 51%);
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Public Sans', sans-serif;
+}
