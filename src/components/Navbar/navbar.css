@@ -24,7 +24,7 @@
     color:  hsl(233, 26%, 24%);
 }
 .BtnRequest{
-    background-color: hsl(136, 65%, 51%);
+    background-image: linear-gradient(to right,  hsl(136, 65%, 51%),  hsl(192, 70%, 51%));
     padding-left: 30px;
     padding-right: 30px;
     height: 40px;

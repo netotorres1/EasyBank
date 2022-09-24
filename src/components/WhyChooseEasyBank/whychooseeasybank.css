@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ContainerWhyChoose{
+    width: 100vw;
+    background-color: hsl(0, 0%, 98%);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Public Sans', sans-serif;;
+}
+.ContainerEasyBank{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.containercontent{
+    width: 1340px;
+    margin: auto;
+}
+.ItemEasyBank{
+    width: 300px;
+    height: 300px;
+}
+.TitleWhyChoose{
+    margin-bottom: 30px;
+    font-weight: 500;
+    color:  hsl(233, 26%, 24%);
+}
+.ItemImg{
+    margin-bottom: 25px;
+}
+.ItemTitle{
+    margin-bottom: 25px;
+    font-weight: 500;
+    color:  hsl(233, 26%, 24%);
+}
+.ItemP{
+    line-height: 30px;
+    color: rgb(139, 139, 139);
+}
+.PWhyChoose{
+    color: rgb(139, 139, 139);
+    width: 600px;
+}

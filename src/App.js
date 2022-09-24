@@ -1,3 +1,4 @@
+import LastArticles from "./components/LastetArticles/LastArticles";
 import Navbar from "./components/Navbar/Navbar";
 import RequestInvite from "./components/RequestInvite/RequestInvite";
 import WhyChooseEasyBank from "./components/WhyChooseEasyBank/WhyChooseEasyBank";
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <RequestInvite />
       <WhyChooseEasyBank />
+      <LastArticles />
     </div>
   );
 }

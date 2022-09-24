@@ -38,9 +38,11 @@
     font-family: 'Public Sans', sans-serif;
     font-weight: 500;
     color:  hsl(233, 26%, 24%);
+    margin-bottom: 30px;
 }
 .P{
     font-family: 'Public Sans', sans-serif;
+    margin-bottom: 30px;
     line-height: 30px;
     color: rgb(139, 139, 139);
 }
@@ -51,7 +53,7 @@
     border: none;
     color: white;
     border-radius: 35px;
-    background-color: hsl(136, 65%, 51%);
+    background-image: linear-gradient(to right,  hsl(136, 65%, 51%),  hsl(192, 70%, 51%));
     font-family: 'Public Sans', sans-serif;
 }
 .btn:hover{
