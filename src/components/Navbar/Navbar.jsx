@@ -11,7 +11,7 @@ const Navbar = () => {
   const dropDownRef = useRef(null);
   return (
     <div className='containerNavbar'>
-        <img src={LogoImg} className='logo' />
+        <img alt='easybank' src={LogoImg} className='logo' />
         <div ref={dropDownRef} className={`Items ${isActive ? 'active' : 'inactive'}`} >
             <button className='Item'>Home</button>
             <button className='Item'>About</button>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <button className='Item'>Careers</button>
         </div>
         <button className='BtnRequest'>Request Invite</button>
-        <img onClick={onClick1} className='hamburger' src={hamburger} />
+        <img alt='menu' onClick={onClick1} className='hamburger' src={hamburger} />
     </div>
   )
 }
