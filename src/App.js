@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <RequestInvite />
-      
+      <WhyChooseEasyBank />
       <LastArticles />
       <Footer />
     </div>

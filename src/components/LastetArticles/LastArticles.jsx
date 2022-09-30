@@ -11,7 +11,7 @@ const LastArticles = () => {
         <h1 className='titlecontainer'>Latest Articles</h1>
         <div className='containerarticles'>
             <div className='Article'>
-                <img className='ArticleImg' src={imagecurrenci} />
+                <img alt='' className='ArticleImg' src={imagecurrenci} />
                 <div className='articlecontent'>
                     
                     <p className='ArticleSpan'>By Claire Robinson</p>
@@ -22,7 +22,7 @@ const LastArticles = () => {
                 </div>
             </div>
             <div className='Article'>
-                <img className='ArticleImg' src={imagerestaurant} />
+                <img alt='' className='ArticleImg' src={imagerestaurant} />
                 <div className='articlecontent'>
                     
                     <p className='ArticleSpan'>By Wilson Hutton</p>
@@ -33,7 +33,7 @@ const LastArticles = () => {
                 </div>
             </div>
             <div className='Article'>
-                <img className='ArticleImg' src={imageplane} />
+                <img alt='' className='ArticleImg' src={imageplane} />
                 <div className='articlecontent'>
                     
                     <p className='ArticleSpan'>By Wilson Hutton</p>
@@ -44,7 +44,7 @@ const LastArticles = () => {
                 </div>
             </div>
             <div className='Article'>
-                <img className='ArticleImg' src={imageconfetti} />
+                <img alt='' className='ArticleImg' src={imageconfetti} />
                 <div className='articlecontent'>
                     
                     <p className='ArticleSpan'>By Claire Robinson</p>

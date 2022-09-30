@@ -14,11 +14,11 @@ const Footer = () => {
             <div className='containericons'>
                 <img className='footerlogo' src={logo} />
                 <div className='icons'>
-                    <img className='footericon' src={facebook} />
-                    <img className='footericon' src={youtube} />
-                    <img className='footericon' src={twitter} />
-                    <img className='footericon' src={pinterest} />
-                    <img className='footericon' src={instagram} />
+                    <img alt='facebook' className='footericon' src={facebook} />
+                    <img alt='youtube' className='footericon' src={youtube} />
+                    <img alt='twitter' className='footericon' src={twitter} />
+                    <img alt='pinterest' className='footericon' src={pinterest} />
+                    <img alt='instagram' className='footericon' src={instagram} />
                 </div>
             </div>
             <div className='containerlists'>

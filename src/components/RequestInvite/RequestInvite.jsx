@@ -7,8 +7,8 @@ const RequestInvite = () => {
   return (
     <div className='ContainerResquestInvite'>
       <div className='ContainerImagesMobile'>
-            <img className='introDesktopMobile' src={bgIntroDesktop} />
-            <img className='imageMorckupsMobile' src={imageMorckups} />
+            <img alt='' className='introDesktopMobile' src={bgIntroDesktop} />
+            <img alt='' className='imageMorckupsMobile' src={imageMorckups} />
         </div>
         <div className='ContainerTexts'>
             <h1 className='Title'>Next generation digital banking</h1>
@@ -19,8 +19,8 @@ const RequestInvite = () => {
             <button className='btn'>Request Invite</button>
         </div>
         <div className='ContainerImages'>
-            <img className='introDesktop' src={bgIntroDesktop} />
-            <img className='imageMorckups' src={imageMorckups} />
+            <img alt='' className='introDesktop' src={bgIntroDesktop} />
+            <img alt='' className='imageMorckups' src={imageMorckups} />
         </div>
     </div>
   )

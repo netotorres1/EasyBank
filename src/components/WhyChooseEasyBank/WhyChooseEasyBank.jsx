@@ -18,7 +18,7 @@ const WhyChooseEasyBank = () => {
 
             <div className='ContainerEasyBank'>
                 <div className='ItemEasyBank'>
-                    <img className='ItemImg' src={Online} />
+                    <img alt='icon' className='ItemImg' src={Online} />
                     <h2 className='ItemTitle'>Online Banking</h2>
                     <p className='ItemP'>
                         Our modern web and mobile applications allow you to keep track of your finances 
@@ -26,7 +26,7 @@ const WhyChooseEasyBank = () => {
                     </p>
                 </div>
                 <div  className='ItemEasyBank'>
-                    <img className='ItemImg' src={budgeting} />
+                    <img alt='icon' className='ItemImg' src={budgeting} />
                     <h2 className='ItemTitle'>Simple Budgeting</h2>
                     <p className='ItemP'>
                         See exactly where your money goes each month. Receive notifications when you’re 
@@ -34,7 +34,7 @@ const WhyChooseEasyBank = () => {
                     </p>
                 </div>
                 <div  className='ItemEasyBank'>
-                <img className='ItemImg' src={onBoarding} />
+                <img alt='icon' className='ItemImg' src={onBoarding} />
                     <h2 className='ItemTitle'>Fast Onboarding</h2>
                     <p className='ItemP'>
                         We don’t do branches. Open your account in minutes online and start taking control 
@@ -42,7 +42,7 @@ const WhyChooseEasyBank = () => {
                     </p>
                 </div>
                 <div  className='ItemEasyBank'>
-                <img className='ItemImg' src={OpenApi} />
+                <img alt='icon' className='ItemImg' src={OpenApi} />
                     <h2 className='ItemTitle'>Open API</h2>
                     <p className='ItemP'>
                         Manage your savings, investments, pension, and much more from one account. Tracking 
