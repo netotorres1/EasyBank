@@ -42,6 +42,7 @@
     margin-bottom: 15px;
     color:  hsl(136, 65%, 51%);
     font-weight: 500;
+    cursor: pointer;
 }
 .articlecontent{
     margin: 20px;
@@ -58,4 +59,30 @@
     position: relative;
     right: 550px;
     top: 50px;
+}
+@media only screen and (max-width: 375px) {
+    .containerarticles{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 10px;
+        width: 375px;
+    }
+    .containerarticle{
+        width: 375px;
+        height: 2300px;
+    }
+    .Article{
+        margin-bottom: 40px;
+        width: 340px;
+        height: 490px;
+    }
+    .ArticleImg{
+        width: 340px;
+    }
+    .titlecontainer{
+        position: relative;
+        left: 10px;
+        font-size: 30px;
+    }
 }

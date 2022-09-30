@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Public Sans', sans-serif;;
+    font-family: 'Public Sans', sans-serif;
+    z-index: 7;
 }
 .ContainerEasyBank{
     display: flex;
@@ -46,4 +47,44 @@
 .PWhyChoose{
     color: rgb(139, 139, 139);
     width: 600px;
+}
+@media only screen and (max-width: 375px) {
+    .ContainerEasyBank{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+    .ContainerWhyChoose{
+        width: 375px;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ItemEasyBank{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        width: 340px;
+        left: 20px;
+        
+    }
+    .ItemP{
+        text-align: center;
+        
+    }
+    .PWhyChoose{
+        width: 340px;
+        position: relative;
+        left: 20px;
+        text-align: center;
+        background-color: red;
+    }
+    .TitleWhyChoose{
+        position: relative;
+        left: 80px;
+        width: 200px;
+        text-align: center;
+    }
 }

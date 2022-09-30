@@ -6,6 +6,10 @@ import './requestinvite.css'
 const RequestInvite = () => {
   return (
     <div className='ContainerResquestInvite'>
+      <div className='ContainerImagesMobile'>
+            <img className='introDesktopMobile' src={bgIntroDesktop} />
+            <img className='imageMorckupsMobile' src={imageMorckups} />
+        </div>
         <div className='ContainerTexts'>
             <h1 className='Title'>Next generation digital banking</h1>
             <p className='P'>

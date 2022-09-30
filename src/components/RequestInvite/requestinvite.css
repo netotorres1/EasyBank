@@ -7,6 +7,7 @@
     margin: auto;
     box-sizing: border-box;
     overflow: hidden;
+    z-index: 1;
 }
 .introDesktop{
     height: 1100px;
@@ -58,4 +59,63 @@
 }
 .btn:hover{
     cursor: pointer;
+}
+.introDesktopMobile{
+    display: none;
+}
+.imageMorckupsMobile{
+    display: none;
+}
+@media only screen and (max-width: 375px) {
+    .ContainerResquestInvite{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 375px;
+        height: 700px;
+    }
+    .introDesktop{
+        display: none;
+    }
+    .imageMorckups{
+        display: none;
+    }
+    .introDesktopMobile{
+        width: 605px;
+        height: 550px;
+        position: relative;
+        top: 130px;
+        left: 30px;
+        display: flex;
+    }
+    .imageMorckupsMobile{
+        width: 375px;
+        position: relative;
+        bottom: 350px;
+        left: 120px;
+        display: flex;
+    }
+    .ContainerTexts{
+       
+        width: 375px;
+        position: relative;
+        top: 1000px;
+        right: 70px;
+    }
+    .Title{
+        width: 340px;
+        text-align: center;
+        font-size: 40px;
+        position: relative;
+        left: 20px;
+    }
+    .P{
+        position: relative;
+        left: 20px;
+        width: 340px;
+    }
+    .btn{
+        position: relative;
+        left: 110px;
+    }
 }

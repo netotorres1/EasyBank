@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import LastArticles from "./components/LastetArticles/LastArticles";
 import Navbar from "./components/Navbar/Navbar";
 import RequestInvite from "./components/RequestInvite/RequestInvite";
@@ -8,8 +9,9 @@ function App() {
     <div className="App">
       <Navbar />
       <RequestInvite />
-      <WhyChooseEasyBank />
+      
       <LastArticles />
+      <Footer />
     </div>
   );
 }
