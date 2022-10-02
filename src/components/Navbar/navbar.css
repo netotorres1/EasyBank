@@ -51,7 +51,8 @@
         box-shadow: 10px 10px 100px rgba(45, 49, 77, 0.993);
     }
     .Item{
-        width: 320px;
+        width: 300px;
+        margin: auto;
     }
 
     .containerNavbar{
@@ -80,5 +81,10 @@
     }
     .Items.active{
         display: flex;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        width: 320px;
+        background-color: white;
     }
 }
