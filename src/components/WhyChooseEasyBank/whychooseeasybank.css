@@ -53,6 +53,10 @@
         display: flex;
         flex-direction: column;
         width: 375px;
+        
+    }
+    .containercontent{
+        width: 375px;
     }
     .ContainerWhyChoose{
         width: 375px;
@@ -70,9 +74,10 @@
         left: 20px;
         
     }
+
     .ItemP{
         text-align: center;
-        
+       
     }
     .PWhyChoose{
         width: 340px;
@@ -85,5 +90,6 @@
         left: 80px;
         width: 200px;
         text-align: center;
+
     }
 }
