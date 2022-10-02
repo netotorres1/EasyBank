@@ -68,10 +68,11 @@
     .logo{
         position: relative;
         width: 150px;
+        right: 40px;
     }
     .hamburger{
         position: relative;
-       
+        left: 40px;
         display: flex;
     }
     .Items{
